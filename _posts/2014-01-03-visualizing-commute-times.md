@@ -64,8 +64,3 @@ From here you can loop through each of these points and scrape a commute time fr
 		<param name='display_count' value='yes' />
 	</object>
 </div>
-<div style='width:654px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;'>
-	<div style='float:right; padding-right:8px;'>
-		<a href='http://www.tableausoftware.com/public/about-tableau-products?ref=http://public.tableausoftware.com/views/UWcommutetimeVisualization/DrivetimestoUWSeattleCampusDashboard' target='_blank'>Learn About Tableau</a>
-	</div>
-</div>
