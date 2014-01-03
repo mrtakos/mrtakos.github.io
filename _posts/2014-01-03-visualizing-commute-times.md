@@ -47,10 +47,6 @@ From here you can loop through each of these points and scrape a commute time fr
 ### The results
 <script type='text/javascript' src='http://public.tableausoftware.com/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 654px; height: 798px;'>
-	<noscript>
-		<a href='#'>
-			<img alt='Drive times to UW Seattle Campus Dashboard ' src='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;UW&#47;UWcommutetimeVisualization&#47;DrivetimestoUWSeattleCampusDashboard&#47;1_rss.png' style='border: none' /></a>
-	</noscript>
 	<object class='tableauViz' width='654' height='798' style='display:none;'>
 		<param name='host_url' value='http%3A%2F%2Fpublic.tableausoftware.com%2F' />
 		<param name='site_root' value='' />
