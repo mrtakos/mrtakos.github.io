@@ -17,7 +17,7 @@ I found [this tool](http://www.trulia.com/local/) that Trulia offers that illust
 I dont have thousands of local addresses but I can generate a grid of thousands of near by latitude and longitudes.
 
 #### Code
-``` python
+{% highlight python %}
 diameter = 75
 incrementMax = 0.75
 increment = incrementMax / diameter
@@ -34,8 +34,7 @@ for x in range(diameter):
                 cLat = oLat - increment * x
                 cLong = oLong + increment * y
                 print '{0},{1}'.format(cLat,cLong)
-
-```
+{% endhighlight %}
 
 ![Points rendered across the Seattle area](/assets/img/Grid_of_points.jpg)
 
