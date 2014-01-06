@@ -47,5 +47,5 @@ From here you can loop through each of these points and scrape a commute time fr
 ### The results
 Embeding the tableau widget is sucking so for now here is a [link](http://public.tableausoftware.com/views/UWcommutetimeVisualization/DrivetimestoUWSeattleCampusDashboard?:embed=y&:display_count=no).
 
-<script type='text/javascript' src='http://public.tableausoftware.com/javascripts/api/viz_v1.js'> </script> 
+{% include tab_vis_commute %}
 
