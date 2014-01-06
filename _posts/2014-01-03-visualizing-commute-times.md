@@ -49,23 +49,3 @@ Embeding the tableau widget is sucking so for now here is a [link](http://public
 
 <script type='text/javascript' src='http://public.tableausoftware.com/javascripts/api/viz_v1.js'> </script> 
 
-<div class="tableauPlaceholder" style="width: 654px; height: 798px;"> 
-	<noscript> 
-		<a href="#"> 
-			<img alt="Drive times to UW Seattle Campus Dashboard " src="http://public.tableausoftware.com/static/images/UW/UWcommutetimeVisualization/DrivetimestoUWSeattleCampusDashboard/1_rss.png" style="border: none" /> 
-		</a> 
-	</noscript> 
-	<object class="tableauViz" width="654" height="798" style="display:none;"> 
-		<param name="host_url" value="http://public.tableausoftware.com/" /> 
-		<param name="site_root" value="" /> 
-		<param name="name" value="UWcommutetimeVisualization/DrivetimestoUWSeattleCampusDashboard" /> 
-		<param name="tabs" value="no" /> 
-		<param name="toolbar" value="yes" /> 
-		<param name="static_image" value="http://public.tableausoftware.com/static/images/UW/UWcommutetimeVisualization/DrivetimestoUWSeattleCampusDashboard/1.png" / > 
-		<param name="animate_transition" value="yes" /> 
-		<param name="display_static_image" value="yes" /> 
-		<param name="display_spinner" value="yes" /> 
-		<param name="display_overlay" value="yes" /> 
-		<param name="display_count" value="yes" /> 
-	</object> 
-</div> 
