@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Data blog!
+tagline: another data blog with visualizations and stuff
 ---
 {% include JB/setup %}
 ### Latest Posts
