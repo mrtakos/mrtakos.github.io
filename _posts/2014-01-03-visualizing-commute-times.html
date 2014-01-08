@@ -11,10 +11,10 @@ I have been house hunting recently and one of the most important things for me i
 Here is my <a href="https://github.com/mrtakos/lat_long_grid_generator">repo</a>
 
 <h3>The goal</h3>
-I found <a href="http://www.trulia.com/local/">this tool</a> that Trulia offers that illustrates commute times from various near-by addresses to a point on the map. This is nifty but I would like to do more with this: like average two locations commute times or use public transportation commute times (which is availible in some locations on Trulia apparently).
+I found <a href="http://www.trulia.com/local/">this tool</a> that Trulia offers that illustrates commute times from various near-by addresses to a point on the map. This is nifty but I would like to do more with this: like average two locations commute times or use public transportation commute times (which is available in some locations on Trulia apparently).
 
 <h3>The method</h3>
-I dont have thousands of local addresses but I can generate a grid of thousands of near by latitude and longitudes.
+I don’t have thousands of local addresses but I can generate a grid of thousands of nearby latitude and longitudes.
 
 <h4>Code</h4>
 {% highlight py %}
@@ -39,10 +39,10 @@ for x in range(diameter):
 <img src="/assets/img/Grid_of_points.jpg" alt="Points rendered across the Seattle area"/>
 
 <h4>Water</h4>
-Water is a problem. If you live in an area with a lot of water you will have a lot of points that arent worth looking up commute times for. The best methodology I know of for handeling this is to get a hydrography shape file from your local government website and use it to detect points in water polygons. I attempted to do this in python and I believe it to be fairly easy but I was lazy so I used ESRI's ArcMaps.
+Water is a problem. If you live in an area with a lot of water you will have a lot of points that aren’t worth looking up commute times for. The best methodology I know of for handling this is to get a hydrography shape file from your local government website and use it to detect points in water polygons. I attempted to do this in python and I believe it to be fairly easy but I was lazy so I used ESRI's ArcMaps.
 
 <h4>Scraping</h4>
-From here you can loop through each of these points and scrape a commute time from your favorite commute estimator. Origionally I attempted to generate and scrape in the same step but any error would derail my process.
+From here you can loop through each of these points and scrape a commute time from your favorite commute estimator. Originally I attempted to generate and scrape in the same step but any error would derail my process.
 
 <h3>The results</h3>
 <script type='text/javascript' src='http://public.tableausoftware.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 654px; height: 798px;'><noscript><a href='#'><img alt='Drive times to UW Seattle Campus Dashboard ' src='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;UW&#47;UWcommutetimeVisualization&#47;DrivetimestoUWSeattleCampusDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='654' height='798' style='display:none;'><param name='host_url' value='http%3A%2F%2Fpublic.tableausoftware.com%2F' /> <param name='site_root' value='' /><param name='name' value='UWcommutetimeVisualization&#47;DrivetimestoUWSeattleCampusDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;UW&#47;UWcommutetimeVisualization&#47;DrivetimestoUWSeattleCampusDashboard&#47;1.png' / > <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div><div style='width:654px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;'><div style='float:right; padding-right:8px;'><a href='http://www.tableausoftware.com/public/about-tableau-products?ref=http://public.tableausoftware.com/views/UWcommutetimeVisualization/DrivetimestoUWSeattleCampusDashboard' target='_blank'>Learn About Tableau</a></div></div>
