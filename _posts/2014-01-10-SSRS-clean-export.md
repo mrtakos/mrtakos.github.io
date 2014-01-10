@@ -39,6 +39,8 @@ If you don't use a lot of extra text boxes you can get pretty good output by add
 </Extension>
 {% endhighlight %}
 
+![SSRS export drop down](/assets/img/SSRS_excel_renderer_noheader.png)
+
 Using this renderer configuration will drop the page headers and simplify the output. If you still have extraneous entries you can hide them with the conditional hide by RenderFormat.
 
 This method requires the least maintenance but it is the least flexible.
