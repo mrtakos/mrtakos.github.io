@@ -29,7 +29,7 @@ If you don't use a lot of extra text boxes you can get pretty good output by add
 {% highlight ruby %}
 <Extension Name="EXCEL (No Header)" Type="Microsoft.ReportingServices.Rendering.ExcelRenderer.ExcelRenderer,Microsoft.ReportingServices.ExcelRendering">
     <OverrideNames>
-        <Name Language="en-AU">Excel (No Header)</Name>
+        <Name Language="en-US">Excel (No Header)</Name>
     </OverrideNames>
     <Configuration> 
         <DeviceInfo>
