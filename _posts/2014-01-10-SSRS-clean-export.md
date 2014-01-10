@@ -1,6 +1,6 @@
 ---
 title: SSRS clean table export
-layout: default
+layout: post
 category: Reporting
 tagline: "usually the wrong tool for the job"
 tags: [SSRS, XSLT, table, export, data]
