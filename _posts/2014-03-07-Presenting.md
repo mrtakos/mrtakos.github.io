@@ -24,7 +24,7 @@ If you are already working in plain text of some sort then you should check out 
 Often, I am already in [RStudio](http://www.rstudio.com/) making visualizations so this option has great appeal for me.
 
 #### RMarkdown ####
-The guys presenting at my local useR Group meetup were using [RMarkdown](http://rmarkdown.rstudio.com/) and [ioslides](https://code.google.com/p/io-2012-slides/).
+The guys presenting at my local useR Group meetup were using [RMarkdown](http://rmarkdown.rstudio.com/) and [ioslides](https://code.google.com/p/io-2012-slides/). I really like writing in markdown as it lets me focus on content over technical presentation.
 
 #### RPresentations ####
 RStudio has its own built in presentation generator called (surprise!) RPresentations. This is very handy and will render a preview in Rstudio.
