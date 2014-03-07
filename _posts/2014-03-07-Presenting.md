@@ -6,9 +6,9 @@ tagline: "show and tell"
 tags: [present, slide, deck, javascript, R, pandoc, prezi, RStudio, RMarkdown]
 ---
 ## Presenting ##
-I recently attended the [DRIVE2014](http://thedriveconference.com/ "DRIVE2014") conference put on by the University of Washington. That same night I missed my local useR Group meeting because I was burnt out on presentations. I have been digging through the slide decks of the stuff I missed and it hit me. These are really well done. What are they using? Thus began my dive into the alternatives to power point and google present.
+I recently attended the [DRIVE2014](http://thedriveconference.com/ "DRIVE2014") conference put on by the University of Washington. That same night I missed my local useR Group meeting because I was burnt out on presentations. I have been digging through the slide decks of the stuff I missed and it hit me. These are really well done. What are they using? Thus began my dive into the alternatives to PowerPoint and Google Docs Presentation.
 
-I have been to many conferences and seen many power point presentations that many people have spent many hours slaving over to make things slide and blink and music play and unfortunately that rarely results in better communication. I think that is why these new technologies appeal to me so much.
+I have been to many conferences and seen many PowerPoint presentations that many people have spent many hours slaving over to make things slide and blink and music play and unfortunately that rarely results in better communication. I think that is why these new technologies appeal to me so much. They are mostly simple and clean.
 
 ### Prezi ###
 [Prezi](http://prezi.com "Prezi") offers a SAS solution that fundamentally changes the slide show concept. The people at Prezi seem to believe that adhering to the limitations imposed by the old fashioned slide projector is silly. They have built a system that uses a viewport that flys around a very large image map, zooming and panning where needed. 
